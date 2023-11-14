@@ -1,6 +1,6 @@
 # Task1
 ## Load your own .csv file into R, report the dimension of your data frame.
-driving <- read.csv("C:\\Users\\23367\\Desktop\\R assignment1\\driving.csv")
+driving <- read.csv("driving.csv")
 driving |> dim()
 
 ## Generate a scatter plot using the plot() function.
