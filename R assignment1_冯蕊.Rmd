@@ -1,0 +1,45 @@
+---
+title: "交通数据分析与应用 R assignment1"
+author: ["学号：2331630","姓名：冯蕊"]
+date: "`r Sys.Date()`"
+output:
+  word_document: default
+---
+
+# Task1
+## Load your own .csv file into R, report the dimension of your data frame.
+```{r}
+driving <- read.csv("C:\\Users\\23367\\Desktop\\R assignment1\\driving.csv")
+driving |> dim()
+```
+
+## Generate a scatter plot using the plot() function.
+```{r}
+plot(x=driving[,1], y=driving[,2], 
+     col=adjustcolor("darkred", 1/2),
+     xlab="time", ylab="Speed/X",
+     main = "Speed-time Scatter Plot")
+```
+
+# Task2
+## Write a loop to calculate the mean value of a random numeric vector of length 50.
+```{r}
+# Generate a random numeric vector
+vec <- rnorm(50)
+
+# Calculate the sum
+sum_vec <- 0
+for (i in 1:length(vec)){
+  sum_vec = sum_vec + vec[i]
+}
+
+# Calculate the mean value
+mean_v <- sum_vec/length(vec)
+mean_v
+```
+
+## Verify that it is correct.
+```{r}
+mean(vec)
+```
+
