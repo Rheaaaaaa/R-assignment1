@@ -4,11 +4,11 @@ R assignment1
 学号：2331630  
 姓名：冯蕊 
 
-报告： R-assignment1_冯蕊.docx 
+报告： 2331630 冯蕊 4R1.docx 
 
-Rmarkdown文件： R assignment1_冯蕊.Rmd 
+Rmarkdown文件： 2331630 冯蕊 4R1.Rmd 
 
-R文件：R assignment1_冯蕊.R 
+R文件：2331630 冯蕊 4R1.R 
 
 Project文件： R assignment1.Rproj 
  
